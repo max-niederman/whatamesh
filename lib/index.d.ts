@@ -30,12 +30,12 @@ class Gradient {
   play(): void;
 
   /**
-   * Initializes the gradient with the provided selector.
+   * Initializes the gradient with the provided element or selector.
    *
-   * @param {string} selector - The selector to your canvas.
+   * @param {string} elementOrSelector - An HTMLCanvasElement or a selector to the canvas element.
    * @memberof Gradient
    */
-  initGradient(selector: string): void;
+  initGradient(elementOrSelector: HTMLCanvasElement | string): void;
 
   /**
    * Toggles the color at the specified index.
